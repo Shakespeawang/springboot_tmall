@@ -27,10 +27,8 @@ public class TestTmall {
 //        } catch (SQLException e) {
 //            e.printStackTrace();
 //        }
-        char []str = {'e','E'};
-        int a = (int)str[0];
-        int b = (int)str[1];
-        System.out.println(a); System.out.println(b);
+        int a[] =new int[10];
+        System.out.println(a[0]); System.out.println(a[1]);
 
 
     }
