@@ -4,8 +4,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 
 public class TestTmall {
+
+
     public static void main(String args[]){
 //        try {
 //            Class.forName("com.mysql.jdbc.Driver");
@@ -27,9 +30,9 @@ public class TestTmall {
 //        } catch (SQLException e) {
 //            e.printStackTrace();
 //        }
-        int a[] =new int[10];
-        System.out.println(a[0]); System.out.println(a[1]);
+        String str[] = {"#","ww"};
 
-
+        boolean b= (str[0]=="#");
+        System.out.print(b);
     }
 }
