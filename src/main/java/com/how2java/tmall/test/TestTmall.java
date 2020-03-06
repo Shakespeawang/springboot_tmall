@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class TestTmall {
 
@@ -30,9 +31,7 @@ public class TestTmall {
 //        } catch (SQLException e) {
 //            e.printStackTrace();
 //        }
-        String str[] = {"#","ww"};
-
-        boolean b= (str[0]=="#");
-        System.out.print(b);
+        HashMap<Integer,String> m = new HashMap<>();
+        m.put(1,"string");
     }
 }

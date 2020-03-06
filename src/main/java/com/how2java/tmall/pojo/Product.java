@@ -28,6 +28,9 @@ public class Product {
     private int stock;
     private Date createDate;
 
+    @Transient
+    private ProductImage firstProductImage;
+
     public int getId() {
         return id;
     }
@@ -90,5 +93,13 @@ public class Product {
 
     public void setCreateDate(Date createDate) {
         this.createDate = createDate;
+    }
+
+    public ProductImage getFirstProductImage() {
+        return firstProductImage;
+    }
+
+    public void setFirstProductImage(ProductImage firstProductImage) {
+        this.firstProductImage = firstProductImage;
     }
 }
